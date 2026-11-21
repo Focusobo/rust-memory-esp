@@ -1,0 +1,18 @@
+target_process: RustClient.exe
+tick_ms: 16
+
+esp:
+  max_distance_m: 400
+  show_teammates: false
+  min_health: 1
+  only_alive: true
+  show_labels: true
+
+loot:
+  enabled: true
+  max_distance_m: 150
+  whitelist:
+    - "Stone"
+    - "Sulfur Ore"
+    - "Metal Fragments"
+    - "High Quality Metal"
