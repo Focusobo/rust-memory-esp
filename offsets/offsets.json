@@ -1,0 +1,30 @@
+{
+  "build": "2026.03.14-1c0ffee",
+  "chains": {
+    "local_player": [0x02E5A1C8, 0x10, 0x48, 0xD0],
+    "camera": [0x02E5A3F0, 0x18, 0x28],
+    "entity_list": [0x02E5A420, 0x08, 0x20],
+    "loot_list": [0x02E5A420, 0x08, 0x38]
+  },
+  "offsets": {
+    "entity_list.count": 0x14,
+    "entity_list.stride": 0x8,
+    "loot_list.count": 0x14,
+    "loot_list.stride": 0x8,
+    "local.position.x": 0x2C,
+    "local.position.y": 0x30,
+    "local.position.z": 0x34,
+    "local.team_id": 0x3E8,
+    "player.pos.x": 0x30,
+    "player.pos.y": 0x34,
+    "player.pos.z": 0x38,
+    "player.head_height": 0x3C,
+    "player.health": 0x2A0,
+    "player.team_id": 0x2A8,
+    "player.name_ptr": 0x2B0,
+    "loot.pos.x": 0x18,
+    "loot.pos.y": 0x1C,
+    "loot.pos.z": 0x20,
+    "loot.name_ptr": 0x28
+  }
+}
