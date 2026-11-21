@@ -1,0 +1,8 @@
+{
+  "sdk": {
+    "version": "8.0.100",
+    "rollForward": "latestMinor"
+  },
+  "msbuild-sdks": {},
+  "note": "present for the companion C# offset-dumper under tools/offset_dumper_cs; the ESP itself is pure Python"
+}
