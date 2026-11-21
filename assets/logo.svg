@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0d0f0e"/>
+  <g>
+    <!-- scanlines -->
+    <g stroke="#c8d0cc" stroke-width="0.4" opacity="0.12">
+      <line x1="12" y1="24" x2="244" y2="24"/>
+      <line x1="12" y1="48" x2="244" y2="48"/>
+      <line x1="12" y1="72" x2="244" y2="72"/>
+      <line x1="12" y1="96" x2="244" y2="96"/>
+      <line x1="12" y1="120" x2="244" y2="120"/>
+      <line x1="12" y1="144" x2="244" y2="144"/>
+      <line x1="12" y1="168" x2="244" y2="168"/>
+      <line x1="12" y1="192" x2="244" y2="192"/>
+      <line x1="12" y1="216" x2="244" y2="216"/>
+      <line x1="12" y1="240" x2="244" y2="240"/>
+    </g>
+
+    <!-- bolt head hexagon (corroded iron) -->
+    <polygon points="128,28 178,54 178,110 128,136 78,110 78,54" fill="#b7410e" stroke="#c8d0cc" stroke-width="2"/>
+    <!-- inner bolt head -->
+    <polygon points="128,44 164,62 164,102 128,120 92,102 92,62" fill="#0d0f0e" stroke="#b7410e" stroke-width="2"/>
+    <!-- bolt cross slot -->
+    <path d="M112 68 L144 96 M144 68 L112 96" stroke="#c8d0cc" stroke-width="3" stroke-linecap="square"/>
+
+    <!-- RAM chip body overlapping bolt bottom, glowing -->
+    <rect x="58" y="130" width="140" height="86" fill="#0d0f0e" stroke="#7ef9d0" stroke-width="2.5"/>
+    <!-- chip inner detail -->
+    <rect x="70" y="142" width="116" height="62" fill="none" stroke="#7ef9d0" stroke-width="1" opacity="0.5"/>
+    <!-- chip die center -->
+    <rect x="96" y="156" width="64" height="34" fill="#7ef9d0" opacity="0.18"/>
+    <rect x="96" y="156" width="64" height="34" fill="none" stroke="#7ef9d0" stroke-width="1.2"/>
+    <!-- die cross-hatch -->
+    <path d="M104 164 L152 182 M152 164 L104 182" stroke="#7ef9d0" stroke-width="0.8" opacity="0.7"/>
+
+    <!-- pins on left, half melted downward -->
+    <g stroke="#c8d0cc" stroke-width="2.5" stroke-linecap="square">
+      <path d="M58 144 L40 144 L34 150"/>
+      <path d="M58 158 L38 158 L30 166"/>
+      <path d="M58 172 L40 172 L32 180"/>
+      <path d="M58 186 L42 186 L38 196 L44 202"/>
+      <path d="M58 200 L44 200 L40 210"/>
+    </g>
+    <!-- melted pin blobs -->
+    <circle cx="34" cy="150" r="2.5" fill="#b7410e"/>
+    <circle cx="30" cy="166" r="3" fill="#b7410e"/>
+    <circle cx="32" cy="180" r="2.5" fill="#b7410e"/>
+    <circle cx="44" cy="202" r="3.2" fill="#b7410e"/>
+    <circle cx="40" cy="210" r="2.4" fill="#b7410e"/>
+
+    <!-- pins on right, half melted downward -->
+    <g stroke="#c8d0cc" stroke-width="2.5" stroke-linecap="square">
+      <path d="M198 144 L216 144 L222 150"/>
+      <path d="M198 158 L218 158 L226 166"/>
+      <path d="M198 172 L216 172 L224 180"/>
+      <path d="M198 186 L214 186 L218 196 L212 202"/>
+      <path d="M198 200 L212 200 L216 210"/>
+    </g>
+    <circle cx="222" cy="150" r="2.5" fill="#b7410e"/>
+    <circle cx="226" cy="166" r="3" fill="#b7410e"/>
+    <circle cx="224" cy="180" r="2.5" fill="#b7410e"/>
+    <circle cx="212" cy="202" r="3.2" fill="#b7410e"/>
+    <circle cx="216" cy="210" r="2.4" fill="#b7410e"/>
+
+    <!-- oxidized corrosion drips from bolt onto chip -->
+    <path d="M100 128 L100 140 L102 148 L100 156" stroke="#b7410e" stroke-width="0" fill="#b7410e" opacity="0.9"/>
+    <path d="M100 128 L96 138 L98 146 L94 154 L98 160 L96 166" stroke="#b7410e" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M150 128 L152 136 L148 144 L152 152 L150 160" stroke="#b7410e" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M128 128 L128 138 L130 146 L126 154" stroke="#b7410e" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+    <!-- corrosion speckles on bolt -->
+    <g fill="#b7410e">
+      <circle cx="96" cy="70" r="2"/>
+      <circle cx="160" cy="76" r="1.8"/>
+      <circle cx="110" cy="96" r="2.2"/>
+      <circle cx="148" cy="100" r="1.6"/>
+      <circle cx="120" cy="60" r="1.4"/>
+      <circle cx="142" cy="52" r="1.8"/>
+    </g>
+
+    <!-- glow accents on chip corners -->
+    <g fill="#7ef9d0">
+      <rect x="64" y="136" width="4" height="4"/>
+      <rect x="188" y="136" width="4" height="4"/>
+      <rect x="64" y="206" width="4" height="4"/>
+      <rect x="188" y="206" width="4" height="4"/>
+    </g>
+
+    <!-- adrenaline-lit stencil slash across mark -->
+    <path d="M40 240 L216 16" stroke="#7ef9d0" stroke-width="1.5" opacity="0.35"/>
+    <path d="M46 246 L222 22" stroke="#c8d0cc" stroke-width="0.8" opacity="0.3"/>
+
+    <!-- small wordmark -->
+    <text x="128" y="248" font-family="monospace" font-size="9" fill="#c8d0cc" text-anchor="middle" letter-spacing="3" opacity="0.75">RUST MEMORY ESP</text>
+  </g>
+</svg>
