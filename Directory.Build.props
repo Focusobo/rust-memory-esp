@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <RepoName>rust-memory-esp</RepoName>
+    <Toolchain>python-3.11</Toolchain>
+    <Overlay>PySide6</Overlay>
+    <CheatDomain>Rust ESP / memory reader</CheatDomain>
+    <TargetProcess>RustClient.exe</TargetProcess>
+  </PropertyGroup>
+</Project>
